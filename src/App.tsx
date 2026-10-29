@@ -19,6 +19,7 @@ const App = () => (
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <a href="/Guia_Power_Automate_sin_instalaciones.html" download className="fixed bottom-5 right-5 z-50 rounded-xl bg-[#3e8b23] px-4 py-3 text-sm font-bold text-white shadow-lg transition hover:bg-[#32721c]">Descargar guía PAD</a>
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
